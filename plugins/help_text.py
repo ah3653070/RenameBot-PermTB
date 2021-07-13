@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 import time
-import os
+import os 
 import sqlite3
 import asyncio
 
@@ -30,7 +30,7 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔶 Contact DEV 🔶", url="https://t.me/Royalbotz")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔶 Updates 🔶", url="https://t.me/Royalbotz")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
