@@ -8,9 +8,9 @@
     "source",
     "Rename"
   ],
-  "success_url": "https://github.com/spechide/AnyDLbot",
-  "website": "https://githib.com/prgofficial",
-  "repository": "https://github.com/prgofficial/RenameBot-PermTB",
+  "success_url": "https://t.me/Royalbotz",
+  "website": "tgbotstore.in",
+  "repository": "https://t.me/Royalbotz/38",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
